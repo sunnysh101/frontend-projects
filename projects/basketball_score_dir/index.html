@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="flex-outer">
+      <div class="main-outer">
+        <div class="banner-text">Home</div>
+        <div class="score" id="score-home">0</div>
+        <div class="point-adder">
+          <button class="point-adder-inner home" valtype="home" numval="1">
+            +1
+          </button>
+          <button class="point-adder-inner home" valtype="home" numval="2">
+            +2
+          </button>
+          <button class="point-adder-inner home" valtype="home" numval="3">
+            +3
+          </button>
+        </div>
+      </div>
+
+      <div class="main-outer">
+        <div class="banner-text">Guest</div>
+        <div class="score" id="score-away">0</div>
+        <div class="point-adder">
+          <button class="point-adder-inner away" valtype="away" numval="1">
+            +1
+          </button>
+          <button class="point-adder-inner away" valtype="away" numval="2">
+            +2
+          </button>
+          <button class="point-adder-inner away" valtype="away" numval="3">
+            +3
+          </button>
+        </div>
+      </div>
+    </div>
+    <button class="clear-score" id="clear-score">Clear Score</button>
+  </body>
+</html>
