@@ -1,0 +1,68 @@
+body {
+  color: #ffffff;
+  background-color: #1b244a;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.flex-outer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-outer {
+  margin-top: 100px;
+}
+
+.main-outer div {
+  margin-bottom: 20px;
+}
+
+.banner-text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.score {
+  background: #080001;
+  text-align: center;
+  font-size: 90px;
+  padding: 10px;
+  color: red;
+}
+
+.point-adder {
+  background-color: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.point-adder-inner {
+  background: none;
+  font-size: 18px;
+  border: 2px solid #ffffff;
+  padding: 9px;
+  border-radius: 5px;
+  color: #ffffff;
+}
+
+/* Flex box to add button to the center */
+.clear-score {
+  background: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: 2px solid #fbfbfb;
+}
